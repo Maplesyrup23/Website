@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>Home</title>
+</head>
+<body>
+<div class="header">
+<h1> City Lumber <h1>
+  </div>
+  
+  
+  
+  <section>
+  <nav>
+    <ul>
+      <li><a href="aboutus.html">About us</a></li>
+      <li><a href="Businesshours.html">Businesshours</a></li>
+      <li><a href="Products.html">Products</a></li>
+       <li><a href="services.html"> services</a></li>
+       <li><a href="contact.html">contact</a></li>
+    </ul>
+  </nav>
+   <p id="demo"></p>
+  
+  <p id="demo">Good Evening!</p>
+    
+<script> 
+   
+if (new Date().getHours() < 12) {
+  document.getElementById("demo").innerHTML = "Good day!";
+}
+  
+   
+  
+  var day;
+switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+    day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case  6:
+    day = "Saturday";
+}
+  document.getElementById("demo").innerHTML = "" + day;
+  
+</script>
+
+ 
+
+<img class="img-responsive" alt="City Lumber Company Logo" src="https://86cb8127dc14737f5057-7c0671222953158607ea93d5febd68b4.ssl.cf1.rackcdn.com/808/assets/v1/306000/306651/web_1425490163.jpg" srcset="https://86cb8127dc14737f5057-7c0671222953158607ea93d5febd68b4.ssl.cf1.rackcdn.com/808/assets/v1/306000/306651/1425490163.jpg 309w, https://86cb8127dc14737f5057-7c0671222953158607ea93d5febd68b4.ssl.cf1.rackcdn.com/808/assets/v1/306000/306651/web_1425490163.jpg 309w, https://86cb8127dc14737f5057-7c0671222953158607ea93d5febd68b4.ssl.cf1.rackcdn.com/808/assets/v1/306000/306651/thumb_1425490163.jpg 190w, https://86cb8127dc14737f5057-7c0671222953158607ea93d5febd68b4.ssl.cf1.rackcdn.com/808/assets/v1/306000/306651/mobile_1425490163.jpg 75w, https://86cb8127dc14737f5057-7c0671222953158607ea93d5febd68b4.ssl.cf1.rackcdn.com/808/assets/v1/306000/306651/lg_1425490163.jpg 309w, https://86cb8127dc14737f5057-7c0671222953158607ea93d5febd68b4.ssl.cf1.rackcdn.com/808/assets/v1/306000/306651/md_1425490163.jpg 309w, https://86cb8127dc14737f5057-7c0671222953158607ea93d5febd68b4.ssl.cf1.rackcdn.com/808/assets/v1/306000/306651/sm_1425490163.jpg 309w, " sizes="(max-width: 75px) 50vw, (min-width: 50px) 50vw, (min-width: 50px) 50vw, (min-width: 50px) 50vw">
+   
+<style>
+    .header {
+  background-color: tan;
+  text-align: center;
+  padding: 20px;
+}
+
+  nav {
+  float: left;
+  width: 30%;
+  height: 300px;
+  background: tan;
+  padding: 10px;
+}
+  body { background-color:tan
+  }
+  
+ 
+</body>
+</html>
